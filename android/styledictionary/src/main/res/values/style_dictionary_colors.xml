@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Wed, 02 Feb 2022 19:58:43 GMT
+-->
+<resources>
+  <color name="color_grayscale_black">#ff000000</color>
+  <color name="color_grayscale_gray_400">#ff495161</color>
+  <color name="color_grayscale_gray_500">#ff767d89</color>
+  <color name="color_grayscale_gray_600">#ffe2e2e2</color>
+  <color name="color_grayscale_gray_700">#fff4f4f5</color>
+  <color name="color_grayscale_gray_800">#fffafbfb</color>
+  <color name="color_grayscale_white">#ffffffff</color>
+  <color name="color_grayscale_gray_100">#ff1c1c1e</color>
+  <color name="color_grayscale_gray_200">#ff28282d</color>
+  <color name="color_grayscale_gray_300">#ff34343c</color>
+  <color name="color_support_success">#ff008556</color>
+  <color name="color_support_error">#fff3585c</color>
+  <color name="color_support_alert">#fff6c95e</color>
+  <color name="color_accent_accent">#ff0093d6</color>
+  <color name="color_primary_interactivity">#ff0050ac</color>
+  <color name="color_primary_shade1">#ff004376</color>
+  <color name="color_primary_shade2">#ffe7f3fe</color>
+  <color name="color_primary_shade3">#ff6390bc</color>
+  <color name="color_primary_brand">#ff0067b1</color>
+  <color name="color_secondary_secondary1">#ff8cd6d3</color>
+  <color name="color_secondary_secondary2">#ffeed1ca</color>
+  
+</resources>
