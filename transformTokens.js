@@ -77,14 +77,14 @@ const StyleDictionaryExtended = StyleDictionary.extend({
       options: {
         copyFilesAction: [
           {
-            destination: buildPath + 'android/font/font_family.xml',
+            destination: buildPath + 'android/res/font/font_family.xml',
             origin: basePath + 'filesToCopy/font_family.xml'
           }
         ]
       },
       files: [
         {
-          destination: 'values/font_styles.xml',
+          destination: 'res/values/font_styles.xml',
           format: 'android/fontStyle',
           filter: (token) => token.type === 'custom-fontStyle',
           options: {
@@ -94,13 +94,13 @@ const StyleDictionaryExtended = StyleDictionary.extend({
           }
         },
         {
-          destination: 'values/dimens.xml',
+          destination: 'res/values/dimens.xml',
           format: 'android/resources',
           resourceType: 'dimen',
           filter: (token) => token.type === 'dimension' || token.type === 'custom-fontStyle'
         },
         {
-          destination: 'values/colors.xml',
+          destination: 'res/values/colors.xml',
           format: 'android/resourcesSorted',
           resourceType: 'color',
           filter: (token) => {
@@ -108,7 +108,7 @@ const StyleDictionaryExtended = StyleDictionary.extend({
           }
         },
         {
-          destination: 'values-night/colors.xml',
+          destination: 'res/values-night/colors.xml',
           format: 'android/resourcesSorted',
           resourceType: 'color',
           filter: (token) => {
