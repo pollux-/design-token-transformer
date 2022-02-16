@@ -1,0 +1,273 @@
+/**
+ * Do not edit directly
+ * Generated on Wed Feb 16 2022 20:47:42 GMT+0000 (Coordinated Universal Time)
+ */
+
+:root {
+  --color-material-theme-sys-light-primary: rgb(103, 80, 164);
+  --color-material-theme-sys-light-on-primary: rgb(255, 255, 255);
+  --color-material-theme-sys-light-primary-container: rgb(234, 221, 255);
+  --color-material-theme-sys-light-on-primary-container: rgb(34, 0, 93);
+  --color-material-theme-sys-light-secondary: rgb(98, 91, 113);
+  --color-material-theme-sys-light-on-secondary: rgb(255, 255, 255);
+  --color-material-theme-sys-light-secondary-container: rgb(232, 222, 248);
+  --color-material-theme-sys-light-on-secondary-container: rgb(30, 25, 43);
+  --color-material-theme-sys-light-tertiary: rgb(125, 82, 96);
+  --color-material-theme-sys-light-on-tertiary: rgb(255, 255, 255);
+  --color-material-theme-sys-light-tertiary-container: rgb(255, 216, 228);
+  --color-material-theme-sys-light-on-tertiary-container: rgb(49, 16, 29);
+  --color-material-theme-sys-light-error: rgb(186, 27, 27);
+  --color-material-theme-sys-light-error-container: rgb(255, 218, 212);
+  --color-material-theme-sys-light-on-error: rgb(255, 255, 255);
+  --color-material-theme-sys-light-on-error-container: rgb(65, 0, 1);
+  --color-material-theme-sys-light-background: rgb(255, 251, 254);
+  --color-material-theme-sys-light-on-background: rgb(28, 27, 30);
+  --color-material-theme-sys-light-surface: rgb(255, 251, 254);
+  --color-material-theme-sys-light-on-surface: rgb(28, 27, 30);
+  --color-material-theme-sys-light-surface-variant: rgb(231, 224, 236);
+  --color-material-theme-sys-light-on-surface-variant: rgb(73, 69, 79);
+  --color-material-theme-sys-light-outline: rgb(121, 117, 127);
+  --color-material-theme-sys-light-inverse-on-surface: rgb(244, 239, 244);
+  --color-material-theme-sys-light-inverse-surface: rgb(49, 48, 51);
+  --color-material-theme-sys-light-inverse-primary: rgb(208, 188, 255);
+  --color-material-theme-sys-light-shadow: rgb(0, 0, 0);
+  --color-material-theme-sys-dark-primary: rgb(208, 188, 255);
+  --color-material-theme-sys-dark-on-primary: rgb(56, 30, 115);
+  --color-material-theme-sys-dark-primary-container: rgb(79, 55, 139);
+  --color-material-theme-sys-dark-on-primary-container: rgb(234, 221, 255);
+  --color-material-theme-sys-dark-secondary: rgb(203, 194, 219);
+  --color-material-theme-sys-dark-on-secondary: rgb(51, 45, 65);
+  --color-material-theme-sys-dark-secondary-container: rgb(74, 68, 88);
+  --color-material-theme-sys-dark-on-secondary-container: rgb(232, 222, 248);
+  --color-material-theme-sys-dark-tertiary: rgb(239, 184, 200);
+  --color-material-theme-sys-dark-on-tertiary: rgb(74, 37, 50);
+  --color-material-theme-sys-dark-tertiary-container: rgb(99, 59, 72);
+  --color-material-theme-sys-dark-on-tertiary-container: rgb(255, 216, 228);
+  --color-material-theme-sys-dark-error: rgb(255, 180, 169);
+  --color-material-theme-sys-dark-error-container: rgb(147, 0, 6);
+  --color-material-theme-sys-dark-on-error: rgb(104, 0, 3);
+  --color-material-theme-sys-dark-on-error-container: rgb(255, 218, 212);
+  --color-material-theme-sys-dark-background: rgb(28, 27, 30);
+  --color-material-theme-sys-dark-on-background: rgb(230, 225, 229);
+  --color-material-theme-sys-dark-surface: rgb(28, 27, 30);
+  --color-material-theme-sys-dark-on-surface: rgb(230, 225, 229);
+  --color-material-theme-sys-dark-surface-variant: rgb(73, 69, 79);
+  --color-material-theme-sys-dark-on-surface-variant: rgb(202, 196, 207);
+  --color-material-theme-sys-dark-outline: rgb(148, 143, 153);
+  --color-material-theme-sys-dark-inverse-on-surface: rgb(28, 27, 30);
+  --color-material-theme-sys-dark-inverse-surface: rgb(230, 225, 229);
+  --color-material-theme-sys-dark-inverse-primary: rgb(103, 80, 164);
+  --color-material-theme-sys-dark-shadow: rgb(0, 0, 0);
+  --font-material-theme-display1: 400 64/76 Roboto;
+  --font-material-theme-display2: 400 57/64 Roboto;
+  --font-material-theme-display3: 400 45/52 Roboto;
+  --font-material-theme-headline1: 400 36/44 Roboto;
+  --font-material-theme-headline2: 400 32/40 Roboto;
+  --font-material-theme-headline3: 400 28/36 Roboto;
+  --font-material-theme-headline4: 400 24/32 Roboto;
+  --font-material-theme-headline5: 400 22/28 Roboto;
+  --font-material-theme-headline6: 400 18/24 Roboto;
+  --font-material-theme-subhead1: 500 16/24 Roboto;
+  --font-material-theme-subhead2: 500 14/20 Roboto;
+  --font-material-theme-button: 500 14/20 Roboto;
+  --font-material-theme-body1: 400 16/24 Roboto;
+  --font-material-theme-body2: 400 14/20 Roboto;
+  --font-material-theme-caption: 400 12/16 Roboto;
+  --font-material-theme-overline: 500 12/16 Roboto;
+  --font-material-theme-labelsmall: 500 11/16 Roboto;
+  --font-material-theme-display-large: 400 57/64 Roboto;
+  --font-material-theme-display-medium: 400 45/52 Roboto;
+  --font-material-theme-display-small: 400 36/44 Roboto;
+  --font-material-theme-headline-large: 400 32/40 Roboto;
+  --font-material-theme-headline-medium: 400 28/36 Roboto;
+  --font-material-theme-headline-small: 400 24/32 Roboto;
+  --font-material-theme-title-large: 400 22/28 Roboto;
+  --font-material-theme-title-medium: 500 16/24 Roboto;
+  --font-material-theme-title-small: 500 14/20 Roboto;
+  --font-material-theme-label-large: 500 14/20 Roboto;
+  --font-material-theme-label-medium: 500 12/16 Roboto;
+  --font-material-theme-label-small: 500 11/16 Roboto;
+  --font-material-theme-body-large: 400 16/24 Roboto;
+  --font-material-theme-body-medium: 400 14/20 Roboto;
+  --font-material-theme-body-small: 400 12/16 Roboto;
+  --typography-material-theme-display1-font-size: 64px;
+  --typography-material-theme-display1-letter-spacing: -0.5px;
+  --typography-material-theme-display1-line-height: 76px;
+  --typography-material-theme-display1-paragraph-indent: 0;
+  --typography-material-theme-display1-paragraph-spacing: 0;
+  --typography-material-theme-display2-font-size: 57px;
+  --typography-material-theme-display2-letter-spacing: -0.25px;
+  --typography-material-theme-display2-line-height: 64px;
+  --typography-material-theme-display2-paragraph-indent: 0;
+  --typography-material-theme-display2-paragraph-spacing: 0;
+  --typography-material-theme-display3-font-size: 45px;
+  --typography-material-theme-display3-letter-spacing: 0;
+  --typography-material-theme-display3-line-height: 52px;
+  --typography-material-theme-display3-paragraph-indent: 0;
+  --typography-material-theme-display3-paragraph-spacing: 0;
+  --typography-material-theme-headline1-font-size: 36px;
+  --typography-material-theme-headline1-letter-spacing: 0;
+  --typography-material-theme-headline1-line-height: 44px;
+  --typography-material-theme-headline1-paragraph-indent: 0;
+  --typography-material-theme-headline1-paragraph-spacing: 0;
+  --typography-material-theme-headline2-font-size: 32px;
+  --typography-material-theme-headline2-letter-spacing: 0;
+  --typography-material-theme-headline2-line-height: 40px;
+  --typography-material-theme-headline2-paragraph-indent: 0;
+  --typography-material-theme-headline2-paragraph-spacing: 0;
+  --typography-material-theme-headline3-font-size: 28px;
+  --typography-material-theme-headline3-letter-spacing: 0;
+  --typography-material-theme-headline3-line-height: 36px;
+  --typography-material-theme-headline3-paragraph-indent: 0;
+  --typography-material-theme-headline3-paragraph-spacing: 0;
+  --typography-material-theme-headline4-font-size: 24px;
+  --typography-material-theme-headline4-letter-spacing: 0;
+  --typography-material-theme-headline4-line-height: 32px;
+  --typography-material-theme-headline4-paragraph-indent: 0;
+  --typography-material-theme-headline4-paragraph-spacing: 0;
+  --typography-material-theme-headline5-font-size: 22px;
+  --typography-material-theme-headline5-letter-spacing: 0;
+  --typography-material-theme-headline5-line-height: 28px;
+  --typography-material-theme-headline5-paragraph-indent: 0;
+  --typography-material-theme-headline5-paragraph-spacing: 0;
+  --typography-material-theme-headline6-font-size: 18px;
+  --typography-material-theme-headline6-letter-spacing: 0;
+  --typography-material-theme-headline6-line-height: 24px;
+  --typography-material-theme-headline6-paragraph-indent: 0;
+  --typography-material-theme-headline6-paragraph-spacing: 0;
+  --typography-material-theme-subhead1-font-size: 16px;
+  --typography-material-theme-subhead1-letter-spacing: 0.1px;
+  --typography-material-theme-subhead1-line-height: 24px;
+  --typography-material-theme-subhead1-paragraph-indent: 0;
+  --typography-material-theme-subhead1-paragraph-spacing: 0;
+  --typography-material-theme-subhead2-font-size: 14px;
+  --typography-material-theme-subhead2-letter-spacing: 0.1px;
+  --typography-material-theme-subhead2-line-height: 20px;
+  --typography-material-theme-subhead2-paragraph-indent: 0;
+  --typography-material-theme-subhead2-paragraph-spacing: 0;
+  --typography-material-theme-button-font-size: 14px;
+  --typography-material-theme-button-letter-spacing: 0.1px;
+  --typography-material-theme-button-line-height: 20px;
+  --typography-material-theme-button-paragraph-indent: 0;
+  --typography-material-theme-button-paragraph-spacing: 0;
+  --typography-material-theme-body1-font-size: 16px;
+  --typography-material-theme-body1-letter-spacing: 0.5px;
+  --typography-material-theme-body1-line-height: 24px;
+  --typography-material-theme-body1-paragraph-indent: 0;
+  --typography-material-theme-body1-paragraph-spacing: 0;
+  --typography-material-theme-body2-font-size: 14px;
+  --typography-material-theme-body2-letter-spacing: 0.25px;
+  --typography-material-theme-body2-line-height: 20px;
+  --typography-material-theme-body2-paragraph-indent: 0;
+  --typography-material-theme-body2-paragraph-spacing: 0;
+  --typography-material-theme-caption-font-size: 12px;
+  --typography-material-theme-caption-letter-spacing: 0.4px;
+  --typography-material-theme-caption-line-height: 16px;
+  --typography-material-theme-caption-paragraph-indent: 0;
+  --typography-material-theme-caption-paragraph-spacing: 0;
+  --typography-material-theme-overline-font-size: 12px;
+  --typography-material-theme-overline-letter-spacing: 0.5px;
+  --typography-material-theme-overline-line-height: 16px;
+  --typography-material-theme-overline-paragraph-indent: 0;
+  --typography-material-theme-overline-paragraph-spacing: 0;
+  --typography-material-theme-labelsmall-font-size: 11px;
+  --typography-material-theme-labelsmall-letter-spacing: 0.5px;
+  --typography-material-theme-labelsmall-line-height: 16px;
+  --typography-material-theme-labelsmall-paragraph-indent: 0;
+  --typography-material-theme-labelsmall-paragraph-spacing: 0;
+  --typography-material-theme-display-large-font-size: 57px;
+  --typography-material-theme-display-large-letter-spacing: -0.25px;
+  --typography-material-theme-display-large-line-height: 64px;
+  --typography-material-theme-display-large-paragraph-indent: 0;
+  --typography-material-theme-display-large-paragraph-spacing: 0;
+  --typography-material-theme-display-medium-font-size: 45px;
+  --typography-material-theme-display-medium-letter-spacing: 0;
+  --typography-material-theme-display-medium-line-height: 52px;
+  --typography-material-theme-display-medium-paragraph-indent: 0;
+  --typography-material-theme-display-medium-paragraph-spacing: 0;
+  --typography-material-theme-display-small-font-size: 36px;
+  --typography-material-theme-display-small-letter-spacing: 0;
+  --typography-material-theme-display-small-line-height: 44px;
+  --typography-material-theme-display-small-paragraph-indent: 0;
+  --typography-material-theme-display-small-paragraph-spacing: 0;
+  --typography-material-theme-headline-large-font-size: 32px;
+  --typography-material-theme-headline-large-letter-spacing: 0;
+  --typography-material-theme-headline-large-line-height: 40px;
+  --typography-material-theme-headline-large-paragraph-indent: 0;
+  --typography-material-theme-headline-large-paragraph-spacing: 0;
+  --typography-material-theme-headline-medium-font-size: 28px;
+  --typography-material-theme-headline-medium-letter-spacing: 0;
+  --typography-material-theme-headline-medium-line-height: 36px;
+  --typography-material-theme-headline-medium-paragraph-indent: 0;
+  --typography-material-theme-headline-medium-paragraph-spacing: 0;
+  --typography-material-theme-headline-small-font-size: 24px;
+  --typography-material-theme-headline-small-letter-spacing: 0;
+  --typography-material-theme-headline-small-line-height: 32px;
+  --typography-material-theme-headline-small-paragraph-indent: 0;
+  --typography-material-theme-headline-small-paragraph-spacing: 0;
+  --typography-material-theme-title-large-font-size: 22px;
+  --typography-material-theme-title-large-letter-spacing: 0;
+  --typography-material-theme-title-large-line-height: 28px;
+  --typography-material-theme-title-large-paragraph-indent: 0;
+  --typography-material-theme-title-large-paragraph-spacing: 0;
+  --typography-material-theme-title-medium-font-size: 16px;
+  --typography-material-theme-title-medium-letter-spacing: 0.1px;
+  --typography-material-theme-title-medium-line-height: 24px;
+  --typography-material-theme-title-medium-paragraph-indent: 0;
+  --typography-material-theme-title-medium-paragraph-spacing: 0;
+  --typography-material-theme-title-small-font-size: 14px;
+  --typography-material-theme-title-small-letter-spacing: 0.1px;
+  --typography-material-theme-title-small-line-height: 20px;
+  --typography-material-theme-title-small-paragraph-indent: 0;
+  --typography-material-theme-title-small-paragraph-spacing: 0;
+  --typography-material-theme-label-large-font-size: 14px;
+  --typography-material-theme-label-large-letter-spacing: 0.1px;
+  --typography-material-theme-label-large-line-height: 20px;
+  --typography-material-theme-label-large-paragraph-indent: 0;
+  --typography-material-theme-label-large-paragraph-spacing: 0;
+  --typography-material-theme-label-medium-font-size: 12px;
+  --typography-material-theme-label-medium-letter-spacing: 0.5px;
+  --typography-material-theme-label-medium-line-height: 16px;
+  --typography-material-theme-label-medium-paragraph-indent: 0;
+  --typography-material-theme-label-medium-paragraph-spacing: 0;
+  --typography-material-theme-label-small-font-size: 11px;
+  --typography-material-theme-label-small-letter-spacing: 0.5px;
+  --typography-material-theme-label-small-line-height: 16px;
+  --typography-material-theme-label-small-paragraph-indent: 0;
+  --typography-material-theme-label-small-paragraph-spacing: 0;
+  --typography-material-theme-body-large-font-size: 16px;
+  --typography-material-theme-body-large-letter-spacing: 0.5px;
+  --typography-material-theme-body-large-line-height: 24px;
+  --typography-material-theme-body-large-paragraph-indent: 0;
+  --typography-material-theme-body-large-paragraph-spacing: 0;
+  --typography-material-theme-body-medium-font-size: 14px;
+  --typography-material-theme-body-medium-letter-spacing: 0.25px;
+  --typography-material-theme-body-medium-line-height: 20px;
+  --typography-material-theme-body-medium-paragraph-indent: 0;
+  --typography-material-theme-body-medium-paragraph-spacing: 0;
+  --typography-material-theme-body-small-font-size: 12px;
+  --typography-material-theme-body-small-letter-spacing: 0.4px;
+  --typography-material-theme-body-small-line-height: 16px;
+  --typography-material-theme-body-small-paragraph-indent: 0;
+  --typography-material-theme-body-small-paragraph-spacing: 0;
+}
+
+@media (prefers-color-scheme: light) {
+ :root {
+
+ }
+}
+
+@media (prefers-color-scheme: dark) {
+ :root {
+
+ }
+}
+
+html[data-theme="light"] {
+
+}
+
+html[data-theme="dark"] {
+
+}

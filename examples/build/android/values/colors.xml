@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Do not edit directly
+  Generated on Wed, 16 Feb 2022 20:47:42 GMT
+-->
+<resources>
+  <color name="primary">#6750a4ff</color>
+  <color name="onPrimary">#ffffffff</color>
+  <color name="primaryContainer">#eaddffff</color>
+  <color name="onPrimaryContainer">#22005dff</color>
+  <color name="secondary">#625b71ff</color>
+  <color name="onSecondary">#ffffffff</color>
+  <color name="secondaryContainer">#e8def8ff</color>
+  <color name="onSecondaryContainer">#1e192bff</color>
+  <color name="tertiary">#7d5260ff</color>
+  <color name="onTertiary">#ffffffff</color>
+  <color name="tertiaryContainer">#ffd8e4ff</color>
+  <color name="onTertiaryContainer">#31101dff</color>
+  <color name="error">#ba1b1bff</color>
+  <color name="errorContainer">#ffdad4ff</color>
+  <color name="onError">#ffffffff</color>
+  <color name="onErrorContainer">#410001ff</color>
+  <color name="background">#fffbfeff</color>
+  <color name="onBackground">#1c1b1eff</color>
+  <color name="surface">#fffbfeff</color>
+  <color name="onSurface">#1c1b1eff</color>
+  <color name="surfaceVariant">#e7e0ecff</color>
+  <color name="onSurfaceVariant">#49454fff</color>
+  <color name="outline">#79757fff</color>
+  <color name="inverseOnSurface">#f4eff4ff</color>
+  <color name="inverseSurface">#313033ff</color>
+  <color name="inversePrimary">#d0bcffff</color>
+  <color name="shadow">#000000ff</color>
+</resources>
