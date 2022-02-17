@@ -6,6 +6,8 @@ module.exports = {
     return token.type === 'color'
   },
   transformer: function ({ value }) {
-    return `${new TinyColor.TinyColor(value).toHex8String()}`
+    // removed alpha channel
+   // return `${new TinyColor.TinyColor(value).toHexString()}`
+    return `${new TinyColor.TinyColor(value).toHexString()}`
   }
 }
