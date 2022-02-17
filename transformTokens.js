@@ -73,11 +73,11 @@ const StyleDictionaryExtended = StyleDictionary.extend({
         'android/pxToDp',
         'android/color'
       ],
-      buildPath: buildPath + 'android/',
+      buildPath: `android/MaterialThemeBuilder/designsystem/src/main/`,
       options: {
         copyFilesAction: [
           {
-            destination: buildPath + 'android/res/font/font_family.xml',
+            destination: buildPath + 'res/font/font_family.xml',
             origin: basePath + 'filesToCopy/font_family.xml'
           }
         ]
