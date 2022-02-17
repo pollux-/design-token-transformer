@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3~ Copyright (C) 2019 The Android Open Source Project
+4~
+5~ Licensed under the Apache License, Version 2.0 (the "License");
+6~ you may not use this file except in compliance with the License.
+7~ You may obtain a copy of the License at
+8~
+9~      http://www.apache.org/licenses/LICENSE-2.0
+10~
+11~ Unless required by applicable law or agreed to in writing, software
+12~ distributed under the License is distributed on an "AS IS" BASIS,
+13~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14~ See the License for the specific language governing permissions and
+15~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="io.material.materialthemebuilder"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="23"
+23-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="31" />
+24-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml
+25
+26    <application
+26-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:22:5-42:19
+27        android:name="io.material.materialthemebuilder.App"
+27-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:23:9-28
+28        android:allowBackup="true"
+28-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:24:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.7.0] /Users/sreekumar/.gradle/caches/transforms-2/files-2.1/969c1ffa34b86db5d2848b4994810123/core-1.7.0/AndroidManifest.xml:24:18-86
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:25:9-43
+31        android:label="@string/app_name"
+31-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:26:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:27:9-54
+33        android:supportsRtl="true"
+33-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:28:9-35
+34        android:theme="@style/Theme.MyApp" >
+34-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:29:9-43
+35        <activity
+35-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:31:9-38:20
+36            android:name="io.material.materialthemebuilder.ui.MainActivity"
+36-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:31:19-50
+37            android:exported="true" >
+37-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:32:13-36
+38            <intent-filter>
+38-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:33:13-37:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:34:17-68
+39-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:34:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:36:17-76
+41-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:36:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <meta-data
+45-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:39:9-41:57
+46            android:name="preloaded_fonts"
+46-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:40:13-43
+47            android:resource="@array/preloaded_fonts" />
+47-->/Users/sreekumar/development/material-components-android-examples/MaterialThemeBuilder/app/src/main/AndroidManifest.xml:41:13-54
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/sreekumar/.gradle/caches/transforms-2/files-2.1/61d59ab08a82182faef55bdaa9c4137b/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/sreekumar/.gradle/caches/transforms-2/files-2.1/61d59ab08a82182faef55bdaa9c4137b/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+51            android:authorities="io.material.materialthemebuilder.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/sreekumar/.gradle/caches/transforms-2/files-2.1/61d59ab08a82182faef55bdaa9c4137b/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/sreekumar/.gradle/caches/transforms-2/files-2.1/61d59ab08a82182faef55bdaa9c4137b/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/sreekumar/.gradle/caches/transforms-2/files-2.1/61d59ab08a82182faef55bdaa9c4137b/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.0.0] /Users/sreekumar/.gradle/caches/transforms-2/files-2.1/61d59ab08a82182faef55bdaa9c4137b/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.0.0] /Users/sreekumar/.gradle/caches/transforms-2/files-2.1/61d59ab08a82182faef55bdaa9c4137b/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sreekumar/.gradle/caches/transforms-2/files-2.1/0e51318a9ecd4e98b69c97c21ec5e5f6/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sreekumar/.gradle/caches/transforms-2/files-2.1/0e51318a9ecd4e98b69c97c21ec5e5f6/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sreekumar/.gradle/caches/transforms-2/files-2.1/0e51318a9ecd4e98b69c97c21ec5e5f6/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>

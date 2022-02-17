@@ -1,0 +1,3 @@
+[submodule "designsystem/DesignSystem"]
+	path = designsystem/DesignSystem
+	url = https://github.com/pollux-/DesignSystem.git
