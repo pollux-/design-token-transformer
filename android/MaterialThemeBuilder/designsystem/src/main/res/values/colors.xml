@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Do not edit directly
-  Generated on Thu, 17 Feb 2022 20:24:05 GMT
+  Generated on Thu, 17 Feb 2022 20:47:15 GMT
 -->
 <resources>
-  <color name="primary">#9b404fff</color>
+  <color name="primary">#6b4ea1ff</color>
   <color name="onPrimary">#ffffffff</color>
-  <color name="primaryContainer">#ffdadeff</color>
-  <color name="onPrimaryContainer">#400010ff</color>
-  <color name="secondary">#765659ff</color>
+  <color name="primaryContainer">#ecdcffff</color>
+  <color name="onPrimaryContainer">#25005aff</color>
+  <color name="secondary">#635b70ff</color>
   <color name="onSecondary">#ffffffff</color>
-  <color name="secondaryContainer">#ffd9dcff</color>
-  <color name="onSecondaryContainer">#2c1518ff</color>
-  <color name="tertiary">#785931ff</color>
+  <color name="secondaryContainer">#eadef8ff</color>
+  <color name="onSecondaryContainer">#1f182bff</color>
+  <color name="tertiary">#7e525dff</color>
   <color name="onTertiary">#ffffffff</color>
-  <color name="tertiaryContainer">#ffddb4ff</color>
-  <color name="onTertiaryContainer">#2a1700ff</color>
+  <color name="tertiaryContainer">#ffd9e2ff</color>
+  <color name="onTertiaryContainer">#32101bff</color>
   <color name="error">#ba1b1bff</color>
   <color name="errorContainer">#ffdad4ff</color>
   <color name="onError">#ffffffff</color>
   <color name="onErrorContainer">#410001ff</color>
-  <color name="background">#fcfcfcff</color>
-  <color name="onBackground">#201a1aff</color>
-  <color name="surface">#fcfcfcff</color>
-  <color name="onSurface">#201a1aff</color>
-  <color name="surfaceVariant">#f3dddeff</color>
-  <color name="onSurfaceVariant">#524344ff</color>
-  <color name="outline">#847374ff</color>
-  <color name="inverseOnSurface">#faeeeeff</color>
-  <color name="inverseSurface">#362f2fff</color>
-  <color name="inversePrimary">#ffb2bcff</color>
+  <color name="background">#fffbfcff</color>
+  <color name="onBackground">#1d1b1fff</color>
+  <color name="surface">#fffbfcff</color>
+  <color name="onSurface">#1d1b1fff</color>
+  <color name="surfaceVariant">#e7e0ebff</color>
+  <color name="onSurfaceVariant">#49454eff</color>
+  <color name="outline">#7a757fff</color>
+  <color name="inverseOnSurface">#f5eff4ff</color>
+  <color name="inverseSurface">#323033ff</color>
+  <color name="inversePrimary">#d5bbffff</color>
   <color name="shadow">#000000ff</color>
 </resources>
