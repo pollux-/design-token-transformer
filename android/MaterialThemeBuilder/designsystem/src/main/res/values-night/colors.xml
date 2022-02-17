@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Do not edit directly
-  Generated on Thu, 17 Feb 2022 20:24:05 GMT
+  Generated on Thu, 17 Feb 2022 20:47:15 GMT
 -->
 <resources>
-  <color name="primary">#ffb2bcff</color>
-  <color name="onPrimary">#5f1123ff</color>
-  <color name="primaryContainer">#7d2939ff</color>
-  <color name="onPrimaryContainer">#ffdadeff</color>
-  <color name="secondary">#e5bdc0ff</color>
-  <color name="onSecondary">#44292cff</color>
-  <color name="secondaryContainer">#5c3f42ff</color>
-  <color name="onSecondaryContainer">#ffd9dcff</color>
-  <color name="tertiary">#e8bf8eff</color>
-  <color name="onTertiary">#442b06ff</color>
-  <color name="tertiaryContainer">#5d411bff</color>
-  <color name="onTertiaryContainer">#ffddb4ff</color>
+  <color name="primary">#d5bbffff</color>
+  <color name="onPrimary">#3c1d70ff</color>
+  <color name="primaryContainer">#533688ff</color>
+  <color name="onPrimaryContainer">#ecdcffff</color>
+  <color name="secondary">#cdc2dbff</color>
+  <color name="onSecondary">#342d40ff</color>
+  <color name="secondaryContainer">#4b4358ff</color>
+  <color name="onSecondaryContainer">#eadef8ff</color>
+  <color name="tertiary">#f1b8c5ff</color>
+  <color name="onTertiary">#4b2530ff</color>
+  <color name="tertiaryContainer">#643b46ff</color>
+  <color name="onTertiaryContainer">#ffd9e2ff</color>
   <color name="error">#ffb4a9ff</color>
   <color name="errorContainer">#930006ff</color>
   <color name="onError">#680003ff</color>
   <color name="onErrorContainer">#ffdad4ff</color>
-  <color name="background">#201a1aff</color>
-  <color name="onBackground">#ece0e0ff</color>
-  <color name="surface">#201a1aff</color>
-  <color name="onSurface">#ece0e0ff</color>
-  <color name="surfaceVariant">#524344ff</color>
-  <color name="onSurfaceVariant">#d7c2c3ff</color>
-  <color name="outline">#9f8c8dff</color>
-  <color name="inverseOnSurface">#201a1aff</color>
-  <color name="inverseSurface">#ece0e0ff</color>
-  <color name="inversePrimary">#9b404fff</color>
+  <color name="background">#1d1b1fff</color>
+  <color name="onBackground">#e6e1e5ff</color>
+  <color name="surface">#1d1b1fff</color>
+  <color name="onSurface">#e6e1e5ff</color>
+  <color name="surfaceVariant">#49454eff</color>
+  <color name="onSurfaceVariant">#cbc4cfff</color>
+  <color name="outline">#948e99ff</color>
+  <color name="inverseOnSurface">#1d1b1fff</color>
+  <color name="inverseSurface">#e6e1e5ff</color>
+  <color name="inversePrimary">#6b4ea1ff</color>
   <color name="shadow">#000000ff</color>
 </resources>
