@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Do not edit directly
-  Generated on Fri, 18 Feb 2022 19:38:00 GMT
+  Generated on Fri, 18 Feb 2022 19:52:19 GMT
 -->
 <resources>
-  <color name="primary">#8fa550</color>
+  <color name="primary">#8eab3a</color>
   <color name="onPrimary">#ffffff</color>
   <color name="primaryContainer">#e9ddff</color>
   <color name="onPrimaryContainer">#21005e</color>
